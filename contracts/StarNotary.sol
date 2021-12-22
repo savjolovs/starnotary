@@ -90,5 +90,4 @@ contract StarNotary is ERC721, IERC721Metadata {
         require(ownerOf(_tokenId) == msg.sender, "You can't stransfer the Star you don't owned");
         _transferFrom(msg.sender, _to1, _tokenId);
     }
-
 }
